@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body > header {
+background-color: rgb(0, 0, 0);
+padding: 16px;
+color: #fff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+   /* height: 180px;  */
+    width: 100%;
+}
+
+.article article {
+    width: 30%;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2,
+.article article {
+    margin-bottom: 16px;
+}
+
+.article article h3 {
+margin-top: 8px;
+bottom: 8px;
+}
+
+.article article a {
+background-color: dimgray;
+color: rgb(0, 0, 0);
+padding: 8px;
+display: inline-block;
+text-decoration: none;
+font-weight: bold;
+margin: 8px;
+}
+
+.article article a:hover {
+    text-decoration: underline;
+}
+
+.article p,
+article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#tecnologia {
+    background-color: rgb(0, 174, 255);
+}
+
+#tecnologia .article article a {
+    background-color: rgb(255, 255, 255);
+}
+
+#entreteniment {
+    background-color: rgba(21, 0, 255, 0.543);
+}
+
+#entreteniment  .article article a{
+    background-color: rgb(255, 255, 255);
+}
